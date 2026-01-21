@@ -8,10 +8,10 @@ A Minecraft datapack that adds a compass which tracks the nearest player. Primar
 
 ## How to Use
 To set the Hunters, use  
-`/team join Hunters player`
+`/team join Hunters player_name`
 
 To set the Runners, use  
-`/team join Runners player`
+`/team join Runners player_name`
 
 To start the game and give the Hunters their compasses, use  
 `/function tracker:start`
