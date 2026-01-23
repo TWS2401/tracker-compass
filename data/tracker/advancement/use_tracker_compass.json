@@ -1,9 +1,19 @@
 {
-	"criteria": { "use_item": {
-		"trigger": "minecraft:using_item",
-		"conditions": { "item": { "predicates": {
-			"minecraft:custom_data": "{tracker: true}"
-		}}}
-	}},
-	"rewards": { "function": "tracker:compass_tick" }
+  "criteria": {
+    "use_item": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": {
+              "tracker": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "tracker:compass_tick"
+  }
 }

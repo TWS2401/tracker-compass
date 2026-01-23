@@ -1,6 +1,10 @@
 {
-	"criteria": { "tick": {
-		"trigger": "minecraft:tick"
-	}},
-	"rewards": { "function": "tracker:compass_cooldown" }
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "rewards": {
+    "function": "tracker:compass_cooldown"
+  }
 }
