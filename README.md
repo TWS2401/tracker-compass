@@ -2,7 +2,7 @@
 A Minecraft datapack that adds a compass which tracks the nearest player. Primarily intended for Minecraft Manhunts.
 
 ## Features
-- Track multiple players - the compass will point to the nearest target. Even works on non-player entities!
+- Track multiple players - the compass will point to the nearest target.
 - Remembers the last position tracked, even if the runner enters a different dimension. Also works if the hunter dies (but the compass will not remember the dimension it was last used in before the hunter's death).
 - Hunters are not able to lose or drop their compass.
 - Runners are not able to pick up or use tracker compasses.
