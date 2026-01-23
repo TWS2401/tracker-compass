@@ -7,4 +7,4 @@ scoreboard objectives remove CompassZ
 
 gamerule locator_bar true
 
-datapack disable "file/TrackerCompass"
+datapack disable "file/tracker-compass"
