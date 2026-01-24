@@ -11,7 +11,7 @@ A Minecraft datapack that adds a compass which tracks the nearest player. Primar
 - Download [latest release](https://github.com/TWS2401/tracker-compass/releases)
 - Locate your world's datapack folder (`.minecraft/saves/[your_world_name]/datapacks`)
 - Place the datapack into the datapack folder
-- Make sure the datapack is enabled by using `/datapack list`. If it isn't, enable it with `/datapack enable "file/tracker-compass_(version_number).zip"`
+- Make sure the datapack is enabled by using `/datapack list`. If it isn't, enable it with `/datapack enable "file/tracker-compass-(version_number).zip"`
 
 ## How to Use
 To set the hunters, use:
