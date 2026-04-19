@@ -13,6 +13,6 @@ execute store result storage tracker:compass_target z int 1 run scoreboard playe
 data modify storage tracker:compass_target dim set from entity @s Dimension
 
 execute if score y_mode TrackerSettings matches 0 run title @s actionbar [{"text":"Compass is now pointing to ","color":"green"},{"selector":"@p[team=Runners,gamemode=!creative,gamemode=!spectator]","color":"green"},{"text":".","color":"green"}]
-execute if score y_mode TrackerSettings matches 1 run title @s actionbar [{"text":"Compass is now pointing to ","color":"green"},{"selector":"@p[team=Runners,gamemode=!creative,gamemode=!spectator]","color":"green"},{"text":" (y = ","color":"green"},{storage:"tracker:compass_target",nbt:"y","color":"green"},{"text":").","color":"green"}]
+execute if score y_mode TrackerSettings matches 1 run title @s actionbar [{"text":"Compass is now pointing to ","color":"green"},{"selector":"@p[team=Runners,gamemode=!creative,gamemode=!spectator]","color":"green"},{"text":" (y = ","color":"green"},{storage:"tracker:compass_target",nbt:"y",plain:true,color:"green"},{"text":").","color":"green"}]
 
 function tracker:set_compass_target with storage tracker:compass_target
